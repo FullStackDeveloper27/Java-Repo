@@ -1,0 +1,34 @@
+package Chapter_12_Constructor;
+
+class Rectangle{
+    int length;
+    int breath;
+
+    // creating a constructor
+    public Rectangle(){
+        length=1;
+        breath=1;
+        // assigning value with constructor
+    }
+    public Rectangle(int l, int b){
+        length =l;
+        breath =b;
+    }
+    public Rectangle(int s){
+        length = breath =s;
+    }
+}
+public class Parameterized_Constructor_02 {
+    public static void main(String[] args) {
+        Rectangle r = new Rectangle();
+        System.out.println(r.length);
+        System.out.println(r.breath);
+        Rectangle r1 = new Rectangle(10,10);
+        System.out.println(r1.length);
+        System.out.println(r1.breath);
+        Rectangle r2 = new Rectangle(10);
+        System.out.println(r2.length);
+        System.out.println(r2.breath);
+
+    }
+}

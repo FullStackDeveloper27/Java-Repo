@@ -14,7 +14,7 @@ public class Problem_10_Arrange_Array_Element_Ascending_Order {
             }
         }
         for(int J : A){
-            System.out.println(J+" ");
+            System.out.print(J+" ");
         }
     }
 }
